@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*_executed.ipynb
+
+# Model artifacts (large binary files)
+models/*.pkl
+models/*.png
+
+# Keep directory structure
+!models/.gitkeep
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
