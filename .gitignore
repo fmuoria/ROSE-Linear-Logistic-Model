@@ -22,6 +22,10 @@ catboost_info/
 models/*.pkl
 models/*.png
 
+# Generated evaluation results
+models/model_evaluation_results.csv
+models/MODEL_EVALUATION_REPORT.md
+
 # Keep directory structure
 !models/.gitkeep
 
